@@ -1,0 +1,95 @@
+body{
+    
+    font-family: arial;
+    font-size: 15px;
+    background: #D2D7DC;
+}
+nav{
+    
+    text-align: center;
+}
+.layout{
+    
+    text-align: center;
+    background-color: #000;
+    color: #FFF;
+    max-width: 100%;
+    padding: 2px;
+    height: 280px;
+}
+h1{
+    
+    font-size:20px;
+    text-align: center;
+}
+h3{
+    
+    font-size: 26px;
+    text-shadow: 1px 1px 1px #000;
+    color:#4682B4;
+    text-align:center;
+}
+.bloco{
+    
+    text-align: center;
+    background: #B0C4DE;
+    padding-top: 0.3px;
+    padding-bottom: 4px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+#video{
+    
+    text-align: center;
+}
+h2{
+    
+    font-size: 22px;
+    text-shadow: 1px 1px 1px #4682B4;
+}
+hr{
+    
+    max-width: 70%;
+}
+#principal{
+
+    grid-template-areas: "foto texto";
+    display: grid;
+}
+.foto{
+    
+    padding: 2%;
+}
+.texto{
+    
+    padding: 2%;
+}
+#criador{
+    
+    border-radius:50%;
+    max-width: 80%;
+    text-align:center;
+}
+#formulario{
+    
+    text-align: center;
+    
+}
+a:link{
+    
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+}
+a:houver{
+    column-rule:#3B73AA;
+}
+#interface{      /*Configuração do site ao todo*/
+    
+    width: 97%;
+    margin: 20px auto 0px auto;
+    background: #FFF;
+    padding: 10px 3px 3px 0px ;
+    box-shadow: 0px 0px 10px #000
+}
